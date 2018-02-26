@@ -1,0 +1,57 @@
+
+module regFile(i_clk, 
+               i_raddr1, 
+               i_raddr2, 
+               i_waddr, 
+               i_wdata, 
+               i_we,
+               o_rdata1,
+               o_rdata2 
+               );
+               
+input           i_clk, i_we;
+input   [4:0]   i_raddr1, i_raddr2, i_waddr;
+input   [31:0]  i_wdata;           
+output  [31:0]  o_rdata1, o_rdata2;
+
+reg     [31:0]  regs[31:0];
+
+
+reg clk_r , we_r;
+reg[31:0] wdata_r;
+reg [4:0] raddr1_r,raddr2_r,waddr_r;
+
+
+
+initial
+begin 
+clk_r=0;
+forever #50 clk_r = ~clk_r;
+end
+
+initial
+begin
+we_r = 1;
+wdata_r = 244;
+#100 raddr1_r = 0; waddr_r = 0;
+#200 we_r = 0; 
+#100 we_r = 1; 
+#100 raddr1_r = 1; waddr_r = 1;
+#200 we_r = 0; 
+#200 we_r = 1;
+#100 raddr1_r = 1; raddr2_r = 0; waddr_r = 0;
+end 
+initial #2500 $finish;
+
+always @(posedge i_clk)
+if(i_we) 
+begin
+  regs[i_waddr] <= i_wdata;
+end		
+
+
+assign {i_clk, i_we, i_raddr1, i_raddr2, i_waddr, i_wdata} = {clk_r, we_r, raddr1_r, raddr2_r, waddr_r,wdata_r};
+assign o_rdata1 = (i_raddr1 == 0) ?  32'd0 : regs[i_raddr1];
+assign o_rdata2 = (i_raddr2 == 0) ? 32'd0  : regs[i_raddr2];
+  
+endmodule

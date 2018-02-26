@@ -1,0 +1,129 @@
+module control(i_instrCode, 
+               o_regDst,
+               o_jump, 
+               o_branch,
+               o_memToReg,
+               o_aluOp,
+               o_memWrite,
+               o_aluSrc,
+               o_regWrite,
+			   o_memRead,
+			   o_func
+               );
+  
+input      [31:0]  i_instrCode;
+output reg         o_regDst;
+output reg         o_jump; 
+output reg         o_branch;
+output reg         o_memToReg;
+output reg [1:0]   o_aluOp;
+output reg         o_memWrite;
+output reg         o_aluSrc;
+output reg         o_regWrite;
+output reg         o_memRead;
+output reg	[5:0]  o_func;
+
+always @(*) begin
+	o_func = i_instrCode[5:0];
+	case(i_instrCode[31:26])
+		6'b000000: begin
+					o_regDst = 1'b1;
+					o_aluSrc = 1'b0;
+				       o_memToReg = 1'b0;
+					o_regWrite = 1'b1;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b0;
+					o_branch = 1'b0;
+					o_jump = 1'b0;
+						case(i_instrCode[5:0])
+							6'b100000: o_aluOp = 2'b00;	//add
+							6'b100001: o_aluOp = 2'b00;	//addu
+							6'b100010: o_aluOp = 2'b01;	//sub
+							6'b100011: o_aluOp = 2'b01;	//subu
+							6'b100100: o_aluOp = 2'b11; //and
+							6'b100101: o_aluOp = 2'b11;	//or
+							default:   o_aluOp = 2'b11; //everything
+						endcase
+				   end
+		6'b001000: begin //addi
+					o_regDst = 1'b0;
+					o_aluSrc = 1'b1;
+					o_memToReg = 1'b0;
+					o_regWrite = 1'b1;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b0;
+					o_branch = 1'b0;
+					o_aluOp = 2'b00;
+					o_jump = 1'b0;
+				   end
+		6'b001000: begin //addiu
+					o_regDst = 1'b0;
+					o_aluSrc = 1'b1;
+					o_memToReg = 1'b0;
+					o_regWrite = 1'b1;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b0;
+					o_branch = 1'b0;
+					o_aluOp = 2'b00;
+					o_jump = 1'b0;
+				   end
+		6'b100011: begin //lw
+					o_regDst = 1'b0;
+					o_aluSrc = 1'b1;
+					o_memToReg = 1'b1;
+					o_regWrite = 1'b1;
+					o_memRead = 1'b1;
+					o_memWrite = 1'b0;
+					o_branch = 1'b0;
+					o_aluOp = 2'b00;
+					o_jump = 1'b0;
+				   end
+		6'b101011: begin //sw
+					o_regDst = $random;
+					o_aluSrc = 1'b1;
+					o_memToReg = $random;
+					o_regWrite = 1'b0;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b1;
+					o_branch = 1'b0;
+					o_aluOp = 2'b00;
+					o_jump = 1'b0;
+				   end
+		6'b000100: begin //beq
+					o_regDst = $random;
+					o_aluSrc = 1'b0;
+					o_memToReg = $random;
+					o_regWrite = 1'b0;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b0;
+					o_branch = 1'b1;
+					o_aluOp = 2'b01;
+					o_jump = 1'b0;
+				   end
+		6'b000010: begin //j
+					o_regDst = $random;
+					o_aluSrc = $random;
+					o_memToReg = $random;
+					o_regWrite = 1'b0;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b0;
+					o_branch = 1'b0;
+					o_aluOp = 2'b00;
+					o_jump = 1'b1;
+				   end
+		default: begin
+					o_regDst = 1'b0;
+					o_aluSrc = 1'b0;
+					o_memToReg = 1'b0;
+					o_regWrite = 1'b0;
+					o_memRead = 1'b0;
+					o_memWrite = 1'b0;
+					o_branch = 1'b0;
+					o_aluOp = 2'b11;
+					o_jump = 1'b0;
+				end
+	endcase
+end
+
+  
+endmodule

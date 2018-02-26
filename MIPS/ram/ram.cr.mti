@@ -1,0 +1,8 @@
+{E:/7 semester/MIPS/ram/ram.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/ram/ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}}

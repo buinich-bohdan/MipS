@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/7 semester/FPGA/sonar
+vcontrol
+Z0 !s110 1508930259
+!i10b 1
+!s100 U76YGML1[Vdh4jBJiagiH0
+IWUV=l[>5hP]lNW]LULb<_1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/7 semester/MIPS/ControlUnit
+w1508828713
+8E:/7 semester/MIPS/ControlUnit/control.v
+FE:/7 semester/MIPS/ControlUnit/control.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1508930259.000000
+!s107 E:/7 semester/MIPS/ControlUnit/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/ControlUnit/control.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcontrol_tb
+R0
+!i10b 1
+!s100 G0mA2RL@@fM;Fjb]VhiA21
+Imm92X5`3K0Y<l0i]RocgO0
+R1
+R2
+w1508828612
+8E:/7 semester/MIPS/ControlUnit/control_tb.v
+FE:/7 semester/MIPS/ControlUnit/control_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/7 semester/MIPS/ControlUnit/control_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/ControlUnit/control_tb.v|
+!i113 1
+R5
+R6

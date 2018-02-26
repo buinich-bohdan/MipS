@@ -1,0 +1,92 @@
+{E:/7 semester/MIPS/lab4/signExtend.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/signExtend.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} {E:/7 semester/MIPS/lab4/control.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {E:/7 semester/MIPS/lab4/alu.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {E:/7 semester/MIPS/lab4/pc.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {E:/7 semester/MIPS/lab4/regFile.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/regFile.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} {E:/7 semester/MIPS/lab4/rom.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} {E:/7 semester/MIPS/lab4/shiftLeftBy2.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/shiftLeftBy2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shiftLeftBy2
+
+Top level modules:
+	shiftLeftBy2
+
+} {} {}} {E:/7 semester/MIPS/lab4/mips_core_test.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/mips_core_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mips_core_test
+
+Top level modules:
+	mips_core_test
+
+} {} {}} {E:/7 semester/MIPS/lab4/ram.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/ram.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}} {E:/7 semester/MIPS/lab4/adder.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {E:/7 semester/MIPS/lab4/mips_core.v} {1 {vlog -work work -stats=none {E:\7 semester\MIPS\lab4\mips_core.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mips_core
+
+Top level modules:
+	mips_core
+
+} {} {}} {E:/7 semester/MIPS/lab4/alu_control.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/alu_control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu_control
+
+Top level modules:
+	alu_control
+
+} {} {}} {E:/7 semester/MIPS/lab4/mux2in1.v} {1 {vlog -work work -stats=none {E:/7 semester/MIPS/lab4/mux2in1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2in1
+
+Top level modules:
+	mux2in1
+
+} {} {}}

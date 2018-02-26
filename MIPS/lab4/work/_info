@@ -1,0 +1,286 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/16.1
+vadder
+Z0 !s110 1512971907
+!i10b 1
+!s100 A[C^1zlN`=fLaTlTQBb`F2
+IOM<^gLRQ591;8UHSJI``c1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/7 semester/MIPS/lab4
+w1509847697
+8E:/7 semester/MIPS/lab4/adder.v
+FE:/7 semester/MIPS/lab4/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1512971906.000000
+!s107 E:/7 semester/MIPS/lab4/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+valu
+R0
+!i10b 1
+!s100 DTQZ1cDD0A3j[CDg:D3NE3
+IK:nj4DO]7lTJ4>Hogo]ck2
+R1
+R2
+w1509815818
+8E:/7 semester/MIPS/lab4/alu.v
+FE:/7 semester/MIPS/lab4/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1512971907.000000
+!s107 E:/7 semester/MIPS/lab4/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/alu.v|
+!i113 1
+R5
+R6
+valu_control
+R0
+!i10b 1
+!s100 TAG3zdEba<:AmEVOB7W`G2
+I>h>hJ?7T0?6Z`88SIW>XP3
+R1
+R2
+w1509983470
+8E:/7 semester/MIPS/lab4/alu_control.v
+FE:/7 semester/MIPS/lab4/alu_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 E:/7 semester/MIPS/lab4/alu_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/alu_control.v|
+!i113 1
+R5
+R6
+vcontrol
+!s110 1512971909
+!i10b 1
+!s100 A9FVdmQ3;jB5akLPM_BFz0
+Ia66O7T;F`bAlKA3ZQ[zVo1
+R1
+R2
+w1509983236
+8E:/7 semester/MIPS/lab4/control.v
+FE:/7 semester/MIPS/lab4/control.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1512971909.000000
+!s107 E:/7 semester/MIPS/lab4/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/control.v|
+!i113 1
+R5
+R6
+vmips_core
+!s110 1512971929
+!i10b 1
+!s100 LiTdSoK3T@K5b5A^HMzW>2
+I2hCzBVThD=c`7jc_cE0Q>2
+R1
+R2
+w1512971704
+8E:\7 semester\MIPS\lab4\mips_core.v
+FE:\7 semester\MIPS\lab4\mips_core.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1512971929.000000
+!s107 E:\7 semester\MIPS\lab4\mips_core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\7 semester\MIPS\lab4\mips_core.v|
+!i113 1
+R5
+R6
+vmips_core_test
+Z8 !s110 1512971905
+!i10b 1
+!s100 glE:3nTe14KQ^HJiOGEUK0
+I8Y^jA3Ggkk9hIB:Yj:QlY1
+R1
+R2
+w1509828620
+8E:/7 semester/MIPS/lab4/mips_core_test.v
+FE:/7 semester/MIPS/lab4/mips_core_test.v
+L0 4
+R3
+r1
+!s85 0
+31
+Z9 !s108 1512971905.000000
+!s107 E:/7 semester/MIPS/lab4/mips_core_test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/mips_core_test.v|
+!i113 1
+R5
+R6
+vmux2in1
+R8
+!i10b 1
+!s100 _d8:EzN1<ZJ>?BzO<X;:N2
+Io:Pf1NXlad_>ofaBMU3Ie3
+R1
+R2
+w1507576357
+8E:/7 semester/MIPS/lab4/mux2in1.v
+FE:/7 semester/MIPS/lab4/mux2in1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab4/mux2in1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/mux2in1.v|
+!i113 1
+R5
+R6
+vpc
+R8
+!i10b 1
+!s100 R02jJH@9gaDjNcjHf6COz0
+IZf9FO7:F>dPU>keAjO?CY3
+R1
+R2
+w1509828678
+8E:/7 semester/MIPS/lab4/pc.v
+FE:/7 semester/MIPS/lab4/pc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab4/pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/pc.v|
+!i113 1
+R5
+R6
+vram
+Z10 !s110 1512971906
+!i10b 1
+!s100 maD8cd8i12fQ>S[ee4WYl3
+IIZVAN0N0IQK^TWYNFO1h13
+R1
+R2
+w1509892493
+8E:/7 semester/MIPS/lab4/ram.v
+FE:/7 semester/MIPS/lab4/ram.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/7 semester/MIPS/lab4/ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/ram.v|
+!i113 1
+R5
+R6
+vregFile
+R10
+!i10b 1
+!s100 [@=AloN6ego77Ubh7dX@n2
+Io>Wnk6]0bB:K7l?F5m6Aj1
+R1
+R2
+w1507615179
+8E:/7 semester/MIPS/lab4/regFile.v
+FE:/7 semester/MIPS/lab4/regFile.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/7 semester/MIPS/lab4/regFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/regFile.v|
+!i113 1
+R5
+R6
+nreg@file
+vrom
+R10
+!i10b 1
+!s100 ^93bV]2PBQ6VJb^^:=V^B2
+IHmFT9IClb1blSD;483^6Z3
+R1
+R2
+w1509882451
+8E:/7 semester/MIPS/lab4/rom.v
+FE:/7 semester/MIPS/lab4/rom.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/7 semester/MIPS/lab4/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/rom.v|
+!i113 1
+R5
+R6
+vshiftLeftBy2
+R10
+!i10b 1
+!s100 =71H>5CP@KP;4FmBa1G3V1
+IPC_aQQmC;OI>^OR9c^bFZ1
+R1
+R2
+w1507582043
+8E:/7 semester/MIPS/lab4/shiftLeftBy2.v
+FE:/7 semester/MIPS/lab4/shiftLeftBy2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/7 semester/MIPS/lab4/shiftLeftBy2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/shiftLeftBy2.v|
+!i113 1
+R5
+R6
+nshift@left@by2
+vsignExtend
+R10
+!i10b 1
+!s100 ]cQZe<A`mEz27[M;h[N:R0
+IAARoG7cLfj=H=P<KZQcfU2
+R1
+R2
+w1507615965
+8E:/7 semester/MIPS/lab4/signExtend.v
+FE:/7 semester/MIPS/lab4/signExtend.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/7 semester/MIPS/lab4/signExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab4/signExtend.v|
+!i113 1
+R5
+R6
+nsign@extend

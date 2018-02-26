@@ -1,0 +1,18 @@
+module next_pc(i_pc_inc,i_imm_26,i_zero,i_beq,i_bne,i_jump,o_pc_inc,o_pc_src);
+
+	input [29:0] i_pc_inc;
+	input i_zero,i_beq,i_bne,i_jump;
+	input [25:0] i_imm_26;
+	output [29:0] o_pc_inc;
+	output o_pc_src;
+
+	wire [31:0] i_add;
+	wire [29:0] i_add_r;
+	
+	signExtend se(.i_data(i_imm_26[15:0]),.ext_op(i_imm_26[25]),.o_data(i_add));
+	
+	assign i_add_r = i_add[31:2];
+	assign o_pc_inc = i_jump ? {i_pc_inc[3:0],i_imm_26} : (i_add_r + i_pc_inc);
+	assign o_pc_src = i_jump + (i_beq * i_zero) + (i_bne + !i_zero) : 0;
+	
+endmodule

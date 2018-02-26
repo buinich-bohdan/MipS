@@ -1,0 +1,330 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/study/7/MIPS/labs/lab_6
+vadder
+Z1 !s110 1513690270
+!i10b 1
+!s100 WDXdF`FJlN^4Zl[6WZK8F3
+IOV;VX7Y@SEB<blNKSLIgE1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/7 semester/MIPS/lab_6
+w1511798164
+8E:/7 semester/MIPS/lab_6/adder.v
+FE:/7 semester/MIPS/lab_6/adder.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1513690270.000000
+!s107 E:/7 semester/MIPS/lab_6/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 EgK:jM<CccNQS7ZaJE2Af0
+Id6oXEV0n[Ib9mkTlZgc6K3
+R2
+R3
+w1512826040
+8E:/7 semester/MIPS/lab_6/alu.v
+FE:/7 semester/MIPS/lab_6/alu.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/7 semester/MIPS/lab_6/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/alu.v|
+!i113 1
+R6
+R7
+valuControl
+R1
+!i10b 1
+!s100 cFN]SC[L7]Qeod8HUN:O10
+Iz1S;3V6FOP9N[[T<MkRWN1
+R2
+R3
+w1512476496
+8E:/7 semester/MIPS/lab_6/aluControl.v
+FE:/7 semester/MIPS/lab_6/aluControl.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/7 semester/MIPS/lab_6/aluControl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/aluControl.v|
+!i113 1
+R6
+R7
+nalu@control
+vcontrol
+Z8 !s110 1513690271
+!i10b 1
+!s100 hdP9ebQ699MLKh0HA[gcc1
+I]<i?i:o^m0@WP_Vne=S[]1
+R2
+R3
+w1512810933
+8E:/7 semester/MIPS/lab_6/control.v
+FE:/7 semester/MIPS/lab_6/control.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1513690271.000000
+!s107 E:/7 semester/MIPS/lab_6/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/control.v|
+!i113 1
+R6
+R7
+vmips_main
+R8
+!i10b 1
+!s100 8R`d45`[VF?lc6>:PclUD0
+InoUXVS?CPK7J<_eia`POB1
+R2
+R3
+w1513690262
+8E:/7 semester/MIPS/lab_6/main.v
+FE:/7 semester/MIPS/lab_6/main.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab_6/main.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/main.v|
+!i113 1
+R6
+R7
+vmux2in1
+R8
+!i10b 1
+!s100 _d8:EzN1<ZJ>?BzO<X;:N2
+IQ:bmoYjd@zczEIPWC0^0Z3
+R2
+R3
+w1512810566
+8E:/7 semester/MIPS/lab_6/mux2in1.v
+FE:/7 semester/MIPS/lab_6/mux2in1.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab_6/mux2in1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/mux2in1.v|
+!i113 1
+R6
+R7
+vnext_pc
+R8
+!i10b 1
+!s100 >z^a2R`?[Df]4:a7^4;V;3
+Iba8fEKlM2CIC_OO8WoNVd1
+R2
+R3
+w1512826711
+8E:/7 semester/MIPS/lab_6/pc_inc.v
+FE:/7 semester/MIPS/lab_6/pc_inc.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab_6/pc_inc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/pc_inc.v|
+!i113 1
+R6
+R7
+vpc
+R8
+!i10b 1
+!s100 6fG=?coB9KjScdQB0OOa[1
+IC?[4g;UYXi<_f`:Ykjm5[2
+R2
+R3
+w1512810588
+8E:/7 semester/MIPS/lab_6/pc.v
+FE:/7 semester/MIPS/lab_6/pc.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab_6/pc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/pc.v|
+!i113 1
+R6
+R7
+vram
+R8
+!i10b 1
+!s100 QTK8GL;SjU0`oOU4;7V@23
+IKGYF[b48cnK4@RFRWGlAX1
+R2
+R3
+w1513168837
+Z10 8E:/7 semester/MIPS/lab_6/ram.v
+Z11 FE:/7 semester/MIPS/lab_6/ram.v
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+Z12 !s107 E:/7 semester/MIPS/lab_6/ram.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/ram.v|
+!i113 1
+R6
+R7
+vRam
+!s110 1513066982
+!i10b 1
+!s100 >;4zaZJEEdzE3P`zcT=H<2
+IBBOj76nk1DM7zZ9<F2F<f2
+R2
+R3
+w1513066969
+R10
+R11
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1513066982.000000
+R12
+R13
+!i113 1
+R6
+R7
+n@ram
+vregFile
+R8
+!i10b 1
+!s100 [@=AloN6ego77Ubh7dX@n2
+IPRO?<=[O=IQ`3>Lzi@:L>3
+R2
+R3
+w1512812057
+8E:/7 semester/MIPS/lab_6/regFile.v
+FE:/7 semester/MIPS/lab_6/regFile.v
+L0 2
+R4
+r1
+!s85 0
+31
+R9
+!s107 E:/7 semester/MIPS/lab_6/regFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/regFile.v|
+!i113 1
+R6
+R7
+nreg@file
+vrom
+Z14 !s110 1513690272
+!i10b 1
+!s100 H2jOFfmc87Y81NMkJEQ9f2
+IN[fHkP^<?CeXL^SN]M[8S1
+R2
+R3
+w1512470420
+8E:/7 semester/MIPS/lab_6/rom.v
+FE:/7 semester/MIPS/lab_6/rom.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1513690272.000000
+!s107 E:/7 semester/MIPS/lab_6/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/rom.v|
+!i113 1
+R6
+R7
+vshiftLeftBy2
+R14
+!i10b 1
+!s100 ]Q]2PQP3kD2]6GlhVSMQZ2
+IWUnE9X9oVdMbmO9c]EkKE2
+R2
+R3
+w1505816781
+8E:/7 semester/MIPS/lab_6/shiftLeftBy2.v
+FE:/7 semester/MIPS/lab_6/shiftLeftBy2.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 E:/7 semester/MIPS/lab_6/shiftLeftBy2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/shiftLeftBy2.v|
+!i113 1
+R6
+R7
+nshift@left@by2
+vsignExtend
+R14
+!i10b 1
+!s100 UMi5aTSWSG6a0:GYRkRFN1
+IgXbbdccXM=]j5I9g[96^=0
+R2
+R3
+w1507007016
+8E:/7 semester/MIPS/lab_6/signExtend.v
+FE:/7 semester/MIPS/lab_6/signExtend.v
+L0 1
+R4
+r1
+!s85 0
+31
+R15
+!s107 E:/7 semester/MIPS/lab_6/signExtend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/7 semester/MIPS/lab_6/signExtend.v|
+!i113 1
+R6
+R7
+nsign@extend
+vtb
+!s110 1511899662
+!i10b 1
+!s100 E;XSf2SlV7o]VAh^fKl0k2
+Iih7O]^nQh@GY=gB9[n4k[3
+R2
+R0
+w1509435453
+8D:/study/7/MIPS/labs/lab_6/tb.v
+FD:/study/7/MIPS/labs/lab_6/tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1511899662.000000
+!s107 D:/study/7/MIPS/labs/lab_6/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/study/7/MIPS/labs/lab_6/tb.v|
+!i113 1
+R6
+R7
